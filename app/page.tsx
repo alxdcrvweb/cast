@@ -1,6 +1,5 @@
 import { Frame, getFrameFlattened } from "frames.js";
 import type { Metadata } from "next";
-import { dbConnect, getWinners, getWinningStatus } from "./lib/db";
 
 // Declare the frame
 const imageUrl = `${process.env.NEXT_PUBLIC_HOST}/pill.jpg`;
