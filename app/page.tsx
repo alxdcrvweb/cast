@@ -11,10 +11,12 @@ const initialFrame: Frame = {
       label: "Cast for prescription",
       action: "link",
       target: `https://warpcast.com/~/compose?text=I%27m%20taking%20%24onchain%20pill%20&embeds[]=${process.env.NEXT_PUBLIC_HOST}`,
+    
     },
 
   ],
   postUrl: `${process.env.NEXT_PUBLIC_HOST}/showdown`,
+  imageAspectRatio: "1:1"
 };
 
 // console.log(process.env.NEXT_PUBLIC_HOST)
